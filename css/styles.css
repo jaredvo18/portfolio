@@ -98,6 +98,11 @@ h5 {
 }
 
 /* Blog */
+.blog {
+  margin: 5% 5%;
+  padding: 2% 3%;
+}
+
 .blog-preview {
   border: 3px solid black;
   margin-top: 40px;
