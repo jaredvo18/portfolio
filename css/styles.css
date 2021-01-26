@@ -1,6 +1,10 @@
 body {
-  background-color: #e7e7de;
+  background-image: linear-gradient(#3f72af, #dbe2ef);
   margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: #f9f7f7;
 }
 
 h1 {
@@ -30,6 +34,9 @@ h5 {
   padding: 15px 0;
 }
 
+a {
+  color: #112d4e;
+}
 
 /* header */
 .header-image {
@@ -41,6 +48,10 @@ h5 {
 }
 
 
+/* Navigation Bar */
+.bar-color {
+  background-color: black;
+}
 
 .header-text {
   size: 1.5rem;
@@ -75,6 +86,16 @@ h5 {
 
 /* Projects */
 
+.projects-containter {
+  margin: 0 auto;
+  padding: 2% 10%;
+  width: 70%;
+}
+
+.project-item {
+  text-align: center;
+}
+
 .screenshot {
   width: 90%;
   height: 1000px;
@@ -84,7 +105,6 @@ h5 {
 
 .website-link {
   font-size: 2rem;
-  color: #5EAAA8;
   text-decoration: none;
   padding: 15px 0;
   display: block;
@@ -93,7 +113,6 @@ h5 {
 }
 
 .website-link:hover {
-  color: #11999E;
   text-decoration: none;
 }
 
@@ -104,7 +123,6 @@ h5 {
 }
 
 .blog-preview {
-  border: 3px solid black;
   margin-top: 40px;
 }
 
@@ -118,12 +136,10 @@ h5 {
 
 .post-link {
   font-size: 2.2rem;
-  color: #5EAAA8;
   text-decoration: none;
 }
 
 .post-link:hover {
-  color: #11999E;
   text-decoration: none;
 }
 
@@ -154,12 +170,12 @@ h5 {
 
 .footer-link {
   font-size: 1.7rem;
-  color: #5EAAA8;
+  color: #f9f7f7;
   text-decoration: none;
   padding: 15px 0;
 }
 
 .footer-link:hover {
-  color: #11999E;
   text-decoration: none;
+  color: #dbe2ef;
 }
